@@ -8,8 +8,8 @@ class Dog
     @dogs_name
   end
   
-  def bark= (yap)
-    @dogs_words = yap
+  def bark= (Woof)
+    @dogs_words = woof
   end
   
   def bark
