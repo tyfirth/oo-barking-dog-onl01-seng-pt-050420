@@ -16,3 +16,6 @@ rex.name = "Rex"
 
 rex.bark = "Woof!"
 
+rex.name
+
+rex.bark
