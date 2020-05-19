@@ -12,3 +12,7 @@ end
 
 rex = Dog.new 
 
+rex.name = "Rex"
+
+rex.bark = "Woof!"
+
