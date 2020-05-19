@@ -8,12 +8,9 @@ class Dog
     @dogs_name
   end
   
-  def bark= (woof)
-    @dogs_words = woof
-  end
   
   def bark
-    @dogs_words
+    puts "Woof!"
   end
   
 end
@@ -21,8 +18,6 @@ end
 rex = Dog.new 
 
 rex.name = "Rex"
-
-rex.bark = "Woof!"
 
 rex.name
 
