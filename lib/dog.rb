@@ -1,12 +1,14 @@
 class Dog 
   
-  def name 
-    
+  def name (doggy)
+    @dogs_name = doggy
   end
   
-  def bark
-    
+  def bark(yap)
+    @dogs_words = yap
   end
   
 end
+
+rex = Dog.new 
 
